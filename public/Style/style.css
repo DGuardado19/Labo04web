@@ -12,6 +12,7 @@
 body{
     padding: 10px;
 }
+
 li{
 list-style: none;
 }
@@ -19,9 +20,24 @@ list-style: none;
     padding: 2em;
 }
 .tatuaje{
-    border-radius: 10px;
+    border-radius: 20px;
     width: 30vw;
-    padding-top: 10px;
+    margin: auto;
+}
+.foto{
+    margin: auto;
+}
+.foto1{
+    margin: auto;
+}
+.texto{
+    margin: auto;
+}
+.subt{
+    margin: auto ;
+}
+.parrafo{
+    padding: 1em 8em 1em 0em;
 }
 p{
     color: #7f888f;
@@ -38,6 +54,7 @@ nav i{
 }
 span{
     font-weight: bolder;
+    color: black;
 }
 h1{
     font-family: sans-serif;
@@ -49,17 +66,39 @@ p{
     line-height: 1.5em;
     text-align: justify;
 }
-ul{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    
-}
+
 nav>div>i{
     color: #7f888f;
 }
-#prueba{
+
+
+.segundot{
+    width: 20vw;
+    border-bottom: #f56a6a solid 3px;
+}
+h2{
+    display: inline-block;
+}
+li div  i{
+    color: #f56a6a;
+    background: white;
+    padding: .5em .5em;
+    font-size: 2.5em;
+}
+ul div li{
     display: flex;
 }
-#icono{
-    padding: 5px
+ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 50%);
+    padding: 2em 0em;
+}
+hr{
+    border-bottom: #7f888f solid 1px;
+}
+@media(max-width:50vw){
+    .foto{
+        display: inline;
+    }
+    
 }
