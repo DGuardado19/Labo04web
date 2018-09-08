@@ -21,7 +21,8 @@ list-style: none;
 }
 .tatuaje{
     border-radius: 20px;
-    width: 30vw;
+    width: 40vw;
+
     margin: auto;
 }
 .foto{
@@ -96,9 +97,34 @@ ul{
 hr{
     border-bottom: #7f888f solid 1px;
 }
-@media(max-width:50vw){
+@media only screen and (max-width:700px){
     .foto{
         display: inline;
+    }
+    .tatuaje{
+        border-radius: 20px;
+        width:80vw;
+        margin: 30px auto;
+    }
+    .foto{
+        margin: auto;
+    }
+    .texto{
+        margin: auto;
+    }
+    .subt{
+        margin: auto;
+        text-align: center;
+    }
+    .parrafo{
+        padding: auto;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .parrafo{
+        padding: 1em;
     }
     
 }
